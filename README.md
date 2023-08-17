@@ -16,12 +16,12 @@ To checkout a stage simply run `git checkout stage-[NUMBER]`, e.g. `git checkout
 
 The tags are as follows:
 
-- stage-1 -- Basic, ready-to-go example app with no Cypress implementation
-- stage-2 -- Cypress implemented for E2E, ready to start writing E2E tests
-- stage-3 -- Initial basic E2E test written, ready for advanced Cypress usage
-- stage-4 -- Advanced E2E test written, ready to implement Cypress Component Testing
-- stage-5 -- Cypress Component Testing setup, ready for first Component Test
-- stage-6 -- Component test written, ready for Cucumber BDD integration
+- [stage-1](https://github.com/Darth-Arminius/cypress-not-sightless/releases/tag/stage-1) -- Basic, ready-to-go example app with no Cypress implementation
+- [stage-2](https://github.com/Darth-Arminius/cypress-not-sightless/releases/tag/stage-2) -- Cypress implemented for E2E, ready to start writing E2E tests
+- [stage-3](https://github.com/Darth-Arminius/cypress-not-sightless/releases/tag/stage-3) -- Initial basic E2E test written, ready for advanced Cypress usage
+- [stage-4](https://github.com/Darth-Arminius/cypress-not-sightless/releases/tag/stage-4) -- Advanced E2E test written, ready to implement Cypress Component Testing
+- [stage-5](https://github.com/Darth-Arminius/cypress-not-sightless/releases/tag/stage-5) -- Cypress Component Testing setup, ready for first Component Test
+- [stage-6](https://github.com/Darth-Arminius/cypress-not-sightless/releases/tag/stage-6) -- Component test written, ready for Cucumber BDD integration
 - stage-7 -- Cucumber BDD integrated, ready for refactoring E2E tests to use Cucumber BDD
 - stage-8 -- E2Es converted to Cucumber BDD
 
@@ -31,7 +31,7 @@ Each of the challenges are tied to a Stage in the project and their number coinc
 
 - Challenge 1 -- Implement Cypress and configure it for E2E testing
 - Challenge 2 -- Write your first E2E test, run it, and make sure it passes
-- Challenge 3 -- Write an advanced E2E test that utilises most of the functions/apis in the 'Useful Stuff' slide of the talk slide deck
+- Challenge 3 -- Write an advanced E2E test that utilises most of the functions/apis in the 'Useful Stuff' slide of the talk slide deck as well as using fixtures
 - Challenge 4 -- Configure Cypress for Component testing
 - Challenge 5 -- Write your first Component test, run it, and make sure it passes
 - Challenge 6 -- Integrate Cucumber BDD
