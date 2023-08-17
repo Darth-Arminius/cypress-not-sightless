@@ -1,6 +1,11 @@
 import Link from 'next/link';
+import { useEffect } from 'react';
 
 export default function LoginForm() {
+  useEffect(() => {
+    document.title = 'Login';
+  }, []);
+
   return (
     <div>
       <h4>Login</h4>

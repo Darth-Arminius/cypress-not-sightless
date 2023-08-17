@@ -1,26 +1,28 @@
-import Nav from './nav'
-import Logo from './logo'
-import Link from 'next/link'
+import Nav from './nav';
+import Logo from './logo';
+import Link from 'next/link';
 
 export default function Header() {
   return (
     <header>
-      <div className="left">
-        <Link href="/" legacyBehavior>
+      <div className='left'>
+        <Link href='/' legacyBehavior>
           <a>
-            <span className="logo">
+            <span className='logo'>
               <Logo />
             </span>
-            <span className="title">Hacker Next</span>
+            <span className='title'>Hacker Next</span>
           </a>
         </Link>
-        <div className="nav">
+        <div className='nav'>
           <Nav />
         </div>
       </div>
-      <div className="right">
-        <Link href="/login" legacyBehavior>
-          <a className="login">login</a>
+      <div className='right'>
+        <Link href='/login' legacyBehavior>
+          <a className='login' data-testid='header-login-link'>
+            login
+          </a>
         </Link>
       </div>
 
@@ -89,5 +91,5 @@ export default function Header() {
         }
       `}</style>
     </header>
-  )
+  );
 }
