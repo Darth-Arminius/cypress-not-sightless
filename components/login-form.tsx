@@ -1,7 +1,11 @@
 import Link from 'next/link';
 import { useEffect } from 'react';
 
-export default function LoginForm() {
+interface LoginFormProps {
+  handleClick?: () => void;
+}
+
+export default function LoginForm({ handleClick }: LoginFormProps) {
   useEffect(() => {
     document.title = 'Login';
   }, []);
@@ -17,6 +21,9 @@ export default function LoginForm() {
       <Link href='/'>
         <button data-testid='login-cta'>login</button>
       </Link>
+      <button data-testid='test-cta' onClick={handleClick}>
+        TEST BUTTON
+      </button>
       <p>
         <a href='#'>Forgot your password?</a>
       </p>
